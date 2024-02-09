@@ -20,5 +20,7 @@ try:
 		print(math.ceil(int(nbr)))
 	elif (isfloat(nbr) == True):
 		print(math.ceil(float(nbr)))
+	else:
+		print("Error")
 except:
 	print("Error")
